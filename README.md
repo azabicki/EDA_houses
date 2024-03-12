@@ -76,5 +76,9 @@ Moreover, the following specific hypotheses will underpin the conclusions drawn 
 
 The [**EDA notebook**](./EDA.ipynb) is prepared in a way to be rendered by the Github preview and still containing all the output figures and maps. Especially in the case of _folium maps_, which are not rendered by the Guthub preview, i need to implement a workaround. These maps are saved as images and then implemented into the notebook as static images in markdown cells. Hence, if you run the notebook locally, these folium maps will be duplicated.
 
+_Note: The Notebook is approx. 12 MB big and is seems that GITHUB have some troubles to render larger notebooks. I tried it a few times, it should work. If you encounter problmens, please try again._
+
+## The Environment
+
 There is also a [**requirements.txt**](./requirements.txt) provided in order to install the virtual environment with all neccessary libraries. Simply create a new virtual environment using the method of your choice.
 
